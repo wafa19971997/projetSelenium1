@@ -17,7 +17,7 @@ import io.cucumber.junit.CucumberOptions;
 		// features= clique droite et propriete ==> copier path a partir de src/... du
 		// Package testCasesZutomationEexercice qui se trouve dans src/test/features
 		features = "src/test/features/devis", monochrome = false, publish = true, plugin = { "pretty",
-				"html:target/cucumber-report.html", "json:target/cucumber.json",
+				"html:target/cucumber-report.html", "json:target/cucumber-reportJson",
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" })
 public class Runner {
 

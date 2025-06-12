@@ -32,6 +32,11 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+         <dependency>
+             <groupId>io.github.bonigarcia</groupId>
+             <artifactId>webdrivermanager</artifactId>
+             <version>5.7.0</version> <!-- or the latest stable version -->
+         </dependency>
 
         <!-- Cucumber -->
         <dependency>
